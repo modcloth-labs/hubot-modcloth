@@ -1,0 +1,32 @@
+{
+  "name": "hubot-modcloth",
+  "version": "0.1.0",
+  "author": "ModCloth, Inc. <github+hubot-modcloth@modcloth.com>",
+  "contributors": [
+    {
+      "name": "Dan Buch",
+      "email": "d.buch@modcloth.com"
+    }
+  ],
+  "description": "Some hubot scripts from ModCloth",
+  "license": "MIT",
+  "main": "index.coffee",
+  "scripts": {
+    "test": "echo rofltesting"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/modcloth-labs/hubot-modcloth"
+  },
+  "keywords": [
+    "hubot",
+    "plugin",
+    "scripts"
+  ],
+  "dependencies": {
+    "hubot": ">= 2.6.0"
+  },
+  "engines": {
+    "node": ">= 0.8"
+  }
+}
