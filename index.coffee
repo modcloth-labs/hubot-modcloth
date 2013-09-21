@@ -6,6 +6,6 @@ Path = require 'path'
 
 module.exports = (robot) ->
   scriptsPath = Path.resolve __dirname, 'scripts'
-  Fs.exists path, (exists) ->
+  Fs.exists scriptsPath, (exists) ->
     if exists
-      robot.loadFile path, file for file in Fs.readdirSync(path)
+      robot.loadFile scriptsPath, file for file in Fs.readdirSync(scriptsPath)
